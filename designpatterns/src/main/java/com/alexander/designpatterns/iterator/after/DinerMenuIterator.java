@@ -2,7 +2,7 @@ package com.alexander.designpatterns.iterator.after;
 
 import com.alexander.designpatterns.iterator.before.MenuItem;
 
-public class DinerMenuIterator implements Iterator, java.util.Iterator<Object> {
+public class DinerMenuIterator implements Iterator, java.util.Iterator<MenuItem> {
 
 	private MenuItem[] items;
 	private int position = 0;
@@ -21,7 +21,7 @@ public class DinerMenuIterator implements Iterator, java.util.Iterator<Object> {
 	}
 
 	@Override
-	public Object next() {
+	public MenuItem next() {
 		MenuItem menuItem = items[position];
 		position = position + 1;
 		return menuItem;

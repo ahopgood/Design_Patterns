@@ -2,6 +2,7 @@ package com.alexander.designpatterns.proxy.rmi;
 
 public class WinnerState implements State {
 
+	private static final long serialVersionUID = 2396212278220233309L;
 	private GumballMachine gumballMachine;
 	
 	public WinnerState(GumballMachine gumballMachine){

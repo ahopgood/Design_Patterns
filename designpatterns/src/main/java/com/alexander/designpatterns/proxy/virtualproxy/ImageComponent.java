@@ -4,7 +4,6 @@ import java.awt.Graphics;
 
 import javax.swing.Icon;
 import javax.swing.JComponent;
-import javax.swing.JFrame;
 
 public class ImageComponent extends JComponent {
 

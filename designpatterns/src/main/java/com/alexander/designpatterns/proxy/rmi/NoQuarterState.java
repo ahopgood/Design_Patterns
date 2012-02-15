@@ -2,6 +2,7 @@ package com.alexander.designpatterns.proxy.rmi;
 
 public class NoQuarterState implements State {
 
+	private static final long serialVersionUID = 3290311106141180738L;
 	private transient GumballMachine gumballMachine;
 	
 	public NoQuarterState(GumballMachine gumballMachine){

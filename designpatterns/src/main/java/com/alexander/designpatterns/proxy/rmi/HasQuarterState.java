@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class HasQuarterState implements State {
 
+	private static final long serialVersionUID = -1650527282760327920L;
 	private transient GumballMachine gumballMachine;
 	private Random randomNumber = new Random(System.currentTimeMillis());
 	

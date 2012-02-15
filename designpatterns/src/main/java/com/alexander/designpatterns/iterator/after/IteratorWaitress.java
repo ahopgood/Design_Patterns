@@ -36,14 +36,14 @@ public class IteratorWaitress {
 		}
 	}
 	
-	private void printMenu(java.util.Iterator iterator){
-		while(iterator.hasNext()){
-			MenuItem menuItem = (MenuItem)iterator.next();
-			System.out.print(menuItem.getName() + ", ");
-			System.out.print(menuItem.getPrice() + " -- ");
-			System.out.println(menuItem.getDescription());
-		}
-	}
+//	private void printMenu(java.util.Iterator<MenuItem> iterator){
+//		while(iterator.hasNext()){
+//			MenuItem menuItem = (MenuItem)iterator.next();
+//			System.out.print(menuItem.getName() + ", ");
+//			System.out.print(menuItem.getPrice() + " -- ");
+//			System.out.println(menuItem.getDescription());
+//		}
+//	}
 	
 	public void printBreakfastMenu(){
 		System.out.println("MENU\n ---- \nBREAKFAST");

@@ -56,7 +56,7 @@ public class DinerMenu implements Menu {
 	}
 	
 	@Override
-	public java.util.Iterator createUtilIterator(){
+	public java.util.Iterator<MenuItem> createUtilIterator(){
 		return new DinerMenuIterator(menuItems);
 	}
 }

@@ -2,6 +2,7 @@ package com.alexander.designpatterns.proxy.rmi;
 
 public class SoldOutState implements State {
 
+	private static final long serialVersionUID = -7799761472955058253L;
 	private transient GumballMachine gumballMachine;
 	
 	public SoldOutState(GumballMachine gumballMachine){

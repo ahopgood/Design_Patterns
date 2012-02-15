@@ -40,6 +40,9 @@ public class ProxyTestRunner {
 		System.out.println("Rating set from non owner proxy");
 		System.out.println("Rating is " + nonOwnerProxy.getHotOrNotRating());
 		
+		System.out.println(3<<2);
+		System.out.println(3<2);
+		
 	}
 	
 	public void initialiseDatabase(){
