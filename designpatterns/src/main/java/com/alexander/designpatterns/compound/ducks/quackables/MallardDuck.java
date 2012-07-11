@@ -14,7 +14,8 @@ public class MallardDuck implements Quackable {
 	
 	@Override
 	public void quack() {
-				
+		System.out.println("Quack");
+		notifyObservers();
 	}
 
 	@Override
@@ -26,5 +27,9 @@ public class MallardDuck implements Quackable {
 	@Override
 	public void notifyObservers() {
 		this.observable.notifyObservers();
+	}
+	
+	public String toString(){
+		return "Mallard Duck";
 	}
 }

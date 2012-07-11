@@ -6,36 +6,34 @@ import com.alexander.designpatterns.compound.ducks.observer.Quackable;
 
 public class QuackCounter implements Quackable {
 
-	private Observable observable;
-	private int quacks = 0;
+	private static int numberOfQuacks = 0;
 	private Quackable duck;
 	
 	public QuackCounter(Quackable duck){
 		this.duck = duck;
 	}
 	
-	public int getQuacks(){
-		return quacks;
-	}
-	
-	public QuackCounter(){
-		this.observable = new Observable(this);
+	public static int getQuacks(){
+		return numberOfQuacks;
 	}
 	
 	@Override
 	public void registerObservable(Observer observer) {
-		this.observable.registerObservable(observer);
+		this.duck.registerObservable(observer);
 	}
 
 	@Override
 	public void notifyObservers() {
-		this.observable.notifyObservers();		
+		this.duck.notifyObservers();		
 	}
 
 	@Override
 	public void quack() {
-		quacks++;
 		duck.quack();
+		numberOfQuacks++;
 	}
 
+	public String toString(){
+		return duck.toString();
+	}
 }

@@ -14,7 +14,8 @@ public class DuckCall implements Quackable {
 	
 	@Override
 	public void quack() {
-				
+		System.out.println("Kwak");
+		notifyObservers();
 	}
 
 	@Override
@@ -27,4 +28,7 @@ public class DuckCall implements Quackable {
 		this.observable.notifyObservers();		
 	}
 
+	public String toString(){
+		return "Duck Call";
+	}
 }

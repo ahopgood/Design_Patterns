@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import javax.sound.midi.MetaEventListener;
 import javax.sound.midi.MetaMessage;
+import javax.sound.midi.Sequencer;
 
 public class BeatModel implements BeatModelInterface, MetaEventListener {
 

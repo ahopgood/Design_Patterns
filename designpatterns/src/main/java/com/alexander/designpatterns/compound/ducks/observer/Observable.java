@@ -13,7 +13,9 @@ public class Observable implements QuackObservable {
 	
 	@Override
 	public void notifyObservers() {
-
+		for (Observer observer : this.observers){
+			observer.update(duck);
+		}
 	}
 
 	@Override
