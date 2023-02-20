@@ -17,7 +17,7 @@
     <junit.version>4.8.1</junit.version>
     <mockito.version>1.8.5</mockito.version>
     <hamcrest.version>1.2.1</hamcrest.version>
-    <imagecomparison.version>0.0.2</imagecomparison.version>
+    <imagecomparison.version>0.3.2</imagecomparison.version>
     <log4j.version>1.2.16</log4j.version>
     <slf4j.version>1.6.4</slf4j.version>
 
