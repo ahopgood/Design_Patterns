@@ -13,6 +13,14 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>17</java.version>
+    <maven-compiler-plugin.version>2.3.2</maven-compiler-plugin.version>
+    <junit.version>4.8.1</junit.version>
+    <mockito.version>1.8.5</mockito.version>
+    <hamcrest.version>1.2.1</hamcrest.version>
+    <imagecomparison.version>0.0.2</imagecomparison.version>
+    <log4j.version>1.2.16</log4j.version>
+    <slf4j.version>1.6.4</slf4j.version>
+
   </properties>
 
   <build>
@@ -20,7 +28,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.3.2</version>
+        <version>${maven-compiler-plugin.version}</version>
         <configuration>
           <source>${java.version}</source>
           <target>${java.version}</target>
@@ -32,40 +40,40 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.13.2</version>
+      <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-all</artifactId>
-      <version>1.8.5</version>
+      <version>${mockito.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest-integration</artifactId>
-      <version>1.2.1</version>
+      <version>${hamcrest.version}</version>
     </dependency>
     <dependency>
       <groupId>net.avh4.util</groupId>
       <artifactId>imagecomparison</artifactId>
-      <version>0.0.2</version>
+      <version>${imagecomparison.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
     	<groupId>log4j</groupId>
     	<artifactId>log4j</artifactId>
-    	<version>1.2.16</version>
+    	<version>${log4j.version}</version>
     </dependency>
     <dependency>
     	<groupId>org.slf4j</groupId>
     	<artifactId>slf4j-api</artifactId>
-    	<version>1.6.4</version>
+    	<version>${slf4j.version}</version>
     </dependency>
     <dependency>
     	<groupId>org.slf4j</groupId>
     	<artifactId>slf4j-log4j12</artifactId>
-    	<version>1.6.4</version>
+    	<version>${slf4j.version}</version>
     </dependency>
   </dependencies>
 </project>
