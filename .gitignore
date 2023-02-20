@@ -1,0 +1,9 @@
+designpatterns/target
+.DS_Store
+designpatterns/.iml
+.idea
+
+# Old eclipse settings
+designpatterns/.settings
+designpatterns/.project
+designpatterns/.classpath
