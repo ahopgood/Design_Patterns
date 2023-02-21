@@ -26,9 +26,9 @@ public class StarbuzzCoffee {
 		logger.info(beverage2.getDescription() + " $" + beverage2.cost());
 
 		Beverage beverage3 = new HouseBlend();
-		beverage2 = new Mocha(beverage3);
-		beverage2 = new Mocha(beverage3);
-		beverage2 = new Whip(beverage3);
+		beverage3 = new Mocha(beverage3);
+		beverage3 = new Mocha(beverage3);
+		beverage3 = new Whip(beverage3);
 		logger.info(beverage3.getDescription() + " $" + beverage3.cost());
 	}
 
