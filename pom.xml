@@ -14,7 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>17</java.version>
     <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
-    <junit.version>4.8.1</junit.version>
+    <junit.version>4.13.2</junit.version>
     <mockito.version>1.10.19</mockito.version>
     <hamcrest.version>1.2.1</hamcrest.version>
     <imagecomparison.version>0.3.2</imagecomparison.version>
