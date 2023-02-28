@@ -1,4 +1,4 @@
-package com.alexander.designpatterns.factory;
+package com.alexander.designpatterns.factory.method;
 
 public class ClamPizza extends Pizza {
 
