@@ -1,12 +1,5 @@
 package com.alexander.designpatterns.factory.method;
 
-import com.alexander.designpatterns.factory.CheesePizza;
-import com.alexander.designpatterns.factory.ClamPizza;
-import com.alexander.designpatterns.factory.PepperoniPizza;
-import com.alexander.designpatterns.factory.Pizza;
-import com.alexander.designpatterns.factory.PizzaStore;
-import com.alexander.designpatterns.factory.VeggiePizza;
-
 public class ChicagoPizzaStore extends PizzaStore {
 
     @Override

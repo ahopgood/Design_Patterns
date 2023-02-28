@@ -29,7 +29,7 @@ public class Waitress {
 				}
 			} catch (UnsupportedOperationException e){
 				//implemented on menus to throw an exception but we're ok with it so we carry on.
-				//We want to show that this is current unsupported on menus but someone could later implement it.
+				//We want to show that this is currently unsupported on menus but someone could later implement it.
 				//Could create our own exception to throw instead?
 			}
 		}
